@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-function ConditionalRender ({ isLoggedIn }) {
-    if(isLoggedIn) {
-        return <p>Welcome back!</p>
-    }
-    return <p>Please login.</p>
+function ConditionalRender() {
+  return (
+    <section className="hidden-content">
+      <h2>Winner winner!</h2>
+    </section>
+  );
 }
-
 
 export default ConditionalRender;
